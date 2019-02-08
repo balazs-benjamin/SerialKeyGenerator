@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99018E20220DDB60007146F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E1F220DDB60007146F9 /* AppDelegate.swift */; };
+		99018E22220DDB60007146F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E21220DDB60007146F9 /* ViewController.swift */; };
+		99018E24220DDB61007146F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99018E23220DDB61007146F9 /* Assets.xcassets */; };
+		99018E27220DDB61007146F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99018E25220DDB61007146F9 /* Main.storyboard */; };
+		99018E33220DDB61007146F9 /* SerialKeyGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E32220DDB61007146F9 /* SerialKeyGeneratorTests.swift */; };
+		99018E3E220DDB61007146F9 /* SerialKeyGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E3D220DDB61007146F9 /* SerialKeyGeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99018E2F220DDB61007146F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99018E14220DDB60007146F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99018E1B220DDB60007146F9;
+			remoteInfo = SerialKeyGenerator;
+		};
+		99018E3A220DDB61007146F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99018E14220DDB60007146F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99018E1B220DDB60007146F9;
+			remoteInfo = SerialKeyGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99018E1C220DDB60007146F9 /* SerialKeyGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerialKeyGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99018E1F220DDB60007146F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99018E21220DDB60007146F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99018E23220DDB61007146F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99018E26220DDB61007146F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99018E28220DDB61007146F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99018E29220DDB61007146F9 /* SerialKeyGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SerialKeyGenerator.entitlements; sourceTree = "<group>"; };
+		99018E2E220DDB61007146F9 /* SerialKeyGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialKeyGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99018E32220DDB61007146F9 /* SerialKeyGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialKeyGeneratorTests.swift; sourceTree = "<group>"; };
+		99018E34220DDB61007146F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99018E39220DDB61007146F9 /* SerialKeyGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialKeyGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99018E3D220DDB61007146F9 /* SerialKeyGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialKeyGeneratorUITests.swift; sourceTree = "<group>"; };
+		99018E3F220DDB61007146F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99018E19220DDB60007146F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99018E2B220DDB61007146F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99018E36220DDB61007146F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99018E13220DDB60007146F9 = {
+			isa = PBXGroup;
+			children = (
+				99018E1E220DDB60007146F9 /* SerialKeyGenerator */,
+				99018E31220DDB61007146F9 /* SerialKeyGeneratorTests */,
+				99018E3C220DDB61007146F9 /* SerialKeyGeneratorUITests */,
+				99018E1D220DDB60007146F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99018E1D220DDB60007146F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99018E1C220DDB60007146F9 /* SerialKeyGenerator.app */,
+				99018E2E220DDB61007146F9 /* SerialKeyGeneratorTests.xctest */,
+				99018E39220DDB61007146F9 /* SerialKeyGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99018E1E220DDB60007146F9 /* SerialKeyGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				99018E1F220DDB60007146F9 /* AppDelegate.swift */,
+				99018E21220DDB60007146F9 /* ViewController.swift */,
+				99018E23220DDB61007146F9 /* Assets.xcassets */,
+				99018E25220DDB61007146F9 /* Main.storyboard */,
+				99018E28220DDB61007146F9 /* Info.plist */,
+				99018E29220DDB61007146F9 /* SerialKeyGenerator.entitlements */,
+			);
+			path = SerialKeyGenerator;
+			sourceTree = "<group>";
+		};
+		99018E31220DDB61007146F9 /* SerialKeyGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				99018E32220DDB61007146F9 /* SerialKeyGeneratorTests.swift */,
+				99018E34220DDB61007146F9 /* Info.plist */,
+			);
+			path = SerialKeyGeneratorTests;
+			sourceTree = "<group>";
+		};
+		99018E3C220DDB61007146F9 /* SerialKeyGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99018E3D220DDB61007146F9 /* SerialKeyGeneratorUITests.swift */,
+				99018E3F220DDB61007146F9 /* Info.plist */,
+			);
+			path = SerialKeyGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99018E1B220DDB60007146F9 /* SerialKeyGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99018E42220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGenerator" */;
+			buildPhases = (
+				99018E18220DDB60007146F9 /* Sources */,
+				99018E19220DDB60007146F9 /* Frameworks */,
+				99018E1A220DDB60007146F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SerialKeyGenerator;
+			productName = SerialKeyGenerator;
+			productReference = 99018E1C220DDB60007146F9 /* SerialKeyGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99018E2D220DDB61007146F9 /* SerialKeyGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99018E45220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGeneratorTests" */;
+			buildPhases = (
+				99018E2A220DDB61007146F9 /* Sources */,
+				99018E2B220DDB61007146F9 /* Frameworks */,
+				99018E2C220DDB61007146F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99018E30220DDB61007146F9 /* PBXTargetDependency */,
+			);
+			name = SerialKeyGeneratorTests;
+			productName = SerialKeyGeneratorTests;
+			productReference = 99018E2E220DDB61007146F9 /* SerialKeyGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99018E38220DDB61007146F9 /* SerialKeyGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99018E48220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGeneratorUITests" */;
+			buildPhases = (
+				99018E35220DDB61007146F9 /* Sources */,
+				99018E36220DDB61007146F9 /* Frameworks */,
+				99018E37220DDB61007146F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99018E3B220DDB61007146F9 /* PBXTargetDependency */,
+			);
+			name = SerialKeyGeneratorUITests;
+			productName = SerialKeyGeneratorUITests;
+			productReference = 99018E39220DDB61007146F9 /* SerialKeyGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99018E14220DDB60007146F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jin HengJun";
+				TargetAttributes = {
+					99018E1B220DDB60007146F9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					99018E2D220DDB61007146F9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 99018E1B220DDB60007146F9;
+					};
+					99018E38220DDB61007146F9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 99018E1B220DDB60007146F9;
+					};
+				};
+			};
+			buildConfigurationList = 99018E17220DDB60007146F9 /* Build configuration list for PBXProject "SerialKeyGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99018E13220DDB60007146F9;
+			productRefGroup = 99018E1D220DDB60007146F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99018E1B220DDB60007146F9 /* SerialKeyGenerator */,
+				99018E2D220DDB61007146F9 /* SerialKeyGeneratorTests */,
+				99018E38220DDB61007146F9 /* SerialKeyGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99018E1A220DDB60007146F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99018E24220DDB61007146F9 /* Assets.xcassets in Resources */,
+				99018E27220DDB61007146F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99018E2C220DDB61007146F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99018E37220DDB61007146F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99018E18220DDB60007146F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99018E22220DDB60007146F9 /* ViewController.swift in Sources */,
+				99018E20220DDB60007146F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99018E2A220DDB61007146F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99018E33220DDB61007146F9 /* SerialKeyGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99018E35220DDB61007146F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99018E3E220DDB61007146F9 /* SerialKeyGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99018E30220DDB61007146F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99018E1B220DDB60007146F9 /* SerialKeyGenerator */;
+			targetProxy = 99018E2F220DDB61007146F9 /* PBXContainerItemProxy */;
+		};
+		99018E3B220DDB61007146F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99018E1B220DDB60007146F9 /* SerialKeyGenerator */;
+			targetProxy = 99018E3A220DDB61007146F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99018E25220DDB61007146F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99018E26220DDB61007146F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99018E40220DDB61007146F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99018E41220DDB61007146F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		99018E43220DDB61007146F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SerialKeyGenerator/SerialKeyGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NRWW7A2LM;
+				INFOPLIST_FILE = SerialKeyGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		99018E44220DDB61007146F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SerialKeyGenerator/SerialKeyGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NRWW7A2LM;
+				INFOPLIST_FILE = SerialKeyGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		99018E46220DDB61007146F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NRWW7A2LM;
+				INFOPLIST_FILE = SerialKeyGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerialKeyGenerator.app/Contents/MacOS/SerialKeyGenerator";
+			};
+			name = Debug;
+		};
+		99018E47220DDB61007146F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NRWW7A2LM;
+				INFOPLIST_FILE = SerialKeyGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerialKeyGenerator.app/Contents/MacOS/SerialKeyGenerator";
+			};
+			name = Release;
+		};
+		99018E49220DDB61007146F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NRWW7A2LM;
+				INFOPLIST_FILE = SerialKeyGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = SerialKeyGenerator;
+			};
+			name = Debug;
+		};
+		99018E4A220DDB61007146F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NRWW7A2LM;
+				INFOPLIST_FILE = SerialKeyGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = SerialKeyGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99018E17220DDB60007146F9 /* Build configuration list for PBXProject "SerialKeyGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99018E40220DDB61007146F9 /* Debug */,
+				99018E41220DDB61007146F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99018E42220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99018E43220DDB61007146F9 /* Debug */,
+				99018E44220DDB61007146F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99018E45220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99018E46220DDB61007146F9 /* Debug */,
+				99018E47220DDB61007146F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99018E48220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99018E49220DDB61007146F9 /* Debug */,
+				99018E4A220DDB61007146F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99018E14220DDB60007146F9 /* Project object */;
+}
