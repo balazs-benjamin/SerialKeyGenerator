@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FCDB51CDB12CF4FD7A834B1 /* Pods_SerialKeyGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DA32052D3F8B0339C51382 /* Pods_SerialKeyGenerator.framework */; };
+		928164F3FF72A139EED03658 /* Pods_SerialKeyGeneratorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1027D9261DC1828BC265BCBE /* Pods_SerialKeyGeneratorUITests.framework */; };
 		99018E20220DDB60007146F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E1F220DDB60007146F9 /* AppDelegate.swift */; };
 		99018E22220DDB60007146F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E21220DDB60007146F9 /* ViewController.swift */; };
 		99018E24220DDB61007146F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99018E23220DDB61007146F9 /* Assets.xcassets */; };
 		99018E27220DDB61007146F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99018E25220DDB61007146F9 /* Main.storyboard */; };
 		99018E33220DDB61007146F9 /* SerialKeyGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E32220DDB61007146F9 /* SerialKeyGeneratorTests.swift */; };
 		99018E3E220DDB61007146F9 /* SerialKeyGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E3D220DDB61007146F9 /* SerialKeyGeneratorUITests.swift */; };
+		C2402D91EDDD24640B594D64 /* Pods_SerialKeyGeneratorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8800C6C8724B131C60DDCFE0 /* Pods_SerialKeyGeneratorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,19 +36,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		99018E1C220DDB60007146F9 /* SerialKeyGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerialKeyGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A6227AE0CCF799EDB15F62 /* Pods-SerialKeyGeneratorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerialKeyGeneratorUITests.release.xcconfig"; path = "Target Support Files/Pods-SerialKeyGeneratorUITests/Pods-SerialKeyGeneratorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1027D9261DC1828BC265BCBE /* Pods_SerialKeyGeneratorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SerialKeyGeneratorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C5CF9CB38BFAFF6E998D50 /* Pods-SerialKeyGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerialKeyGenerator.debug.xcconfig"; path = "Target Support Files/Pods-SerialKeyGenerator/Pods-SerialKeyGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9703D636B6D16612CA28CD /* Pods-SerialKeyGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerialKeyGenerator.release.xcconfig"; path = "Target Support Files/Pods-SerialKeyGenerator/Pods-SerialKeyGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		5D3EDEEC3754E5841C945FEE /* Pods-SerialKeyGeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerialKeyGeneratorTests.debug.xcconfig"; path = "Target Support Files/Pods-SerialKeyGeneratorTests/Pods-SerialKeyGeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8800C6C8724B131C60DDCFE0 /* Pods_SerialKeyGeneratorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SerialKeyGeneratorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941358A3259DC807FC87B736 /* Pods-SerialKeyGeneratorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerialKeyGeneratorUITests.debug.xcconfig"; path = "Target Support Files/Pods-SerialKeyGeneratorUITests/Pods-SerialKeyGeneratorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97DA32052D3F8B0339C51382 /* Pods_SerialKeyGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SerialKeyGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99018E1C220DDB60007146F9 /* LicenseCodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicenseCodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99018E1F220DDB60007146F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99018E21220DDB60007146F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		99018E23220DDB61007146F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99018E26220DDB61007146F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99018E28220DDB61007146F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99018E29220DDB61007146F9 /* SerialKeyGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SerialKeyGenerator.entitlements; sourceTree = "<group>"; };
-		99018E2E220DDB61007146F9 /* SerialKeyGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialKeyGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99018E2E220DDB61007146F9 /* LicenseCodeGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicenseCodeGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99018E32220DDB61007146F9 /* SerialKeyGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialKeyGeneratorTests.swift; sourceTree = "<group>"; };
 		99018E34220DDB61007146F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99018E39220DDB61007146F9 /* SerialKeyGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialKeyGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99018E39220DDB61007146F9 /* LicenseCodeGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicenseCodeGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99018E3D220DDB61007146F9 /* SerialKeyGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialKeyGeneratorUITests.swift; sourceTree = "<group>"; };
 		99018E3F220DDB61007146F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B222D1B7D750F642B7FA5FC /* Pods-SerialKeyGeneratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerialKeyGeneratorTests.release.xcconfig"; path = "Target Support Files/Pods-SerialKeyGeneratorTests/Pods-SerialKeyGeneratorTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCDB51CDB12CF4FD7A834B1 /* Pods_SerialKeyGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2402D91EDDD24640B594D64 /* Pods_SerialKeyGeneratorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928164F3FF72A139EED03658 /* Pods_SerialKeyGeneratorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,15 +95,17 @@
 				99018E31220DDB61007146F9 /* SerialKeyGeneratorTests */,
 				99018E3C220DDB61007146F9 /* SerialKeyGeneratorUITests */,
 				99018E1D220DDB60007146F9 /* Products */,
+				D548A8AC6220125DF0CD4372 /* Pods */,
+				A2C2542F0F3C92EA11BDBD2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		99018E1D220DDB60007146F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99018E1C220DDB60007146F9 /* SerialKeyGenerator.app */,
-				99018E2E220DDB61007146F9 /* SerialKeyGeneratorTests.xctest */,
-				99018E39220DDB61007146F9 /* SerialKeyGeneratorUITests.xctest */,
+				99018E1C220DDB60007146F9 /* LicenseCodeGenerator.app */,
+				99018E2E220DDB61007146F9 /* LicenseCodeGeneratorTests.xctest */,
+				99018E39220DDB61007146F9 /* LicenseCodeGeneratorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,30 +141,56 @@
 			path = SerialKeyGeneratorUITests;
 			sourceTree = "<group>";
 		};
+		A2C2542F0F3C92EA11BDBD2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97DA32052D3F8B0339C51382 /* Pods_SerialKeyGenerator.framework */,
+				8800C6C8724B131C60DDCFE0 /* Pods_SerialKeyGeneratorTests.framework */,
+				1027D9261DC1828BC265BCBE /* Pods_SerialKeyGeneratorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D548A8AC6220125DF0CD4372 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10C5CF9CB38BFAFF6E998D50 /* Pods-SerialKeyGenerator.debug.xcconfig */,
+				4F9703D636B6D16612CA28CD /* Pods-SerialKeyGenerator.release.xcconfig */,
+				5D3EDEEC3754E5841C945FEE /* Pods-SerialKeyGeneratorTests.debug.xcconfig */,
+				9B222D1B7D750F642B7FA5FC /* Pods-SerialKeyGeneratorTests.release.xcconfig */,
+				941358A3259DC807FC87B736 /* Pods-SerialKeyGeneratorUITests.debug.xcconfig */,
+				04A6227AE0CCF799EDB15F62 /* Pods-SerialKeyGeneratorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99018E1B220DDB60007146F9 /* SerialKeyGenerator */ = {
+		99018E1B220DDB60007146F9 /* LicenseCodeGenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99018E42220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGenerator" */;
+			buildConfigurationList = 99018E42220DDB61007146F9 /* Build configuration list for PBXNativeTarget "LicenseCodeGenerator" */;
 			buildPhases = (
+				810434EAB155692C287CCD6D /* [CP] Check Pods Manifest.lock */,
 				99018E18220DDB60007146F9 /* Sources */,
 				99018E19220DDB60007146F9 /* Frameworks */,
 				99018E1A220DDB60007146F9 /* Resources */,
+				C59C2E4196F3045C89048AB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SerialKeyGenerator;
+			name = LicenseCodeGenerator;
 			productName = SerialKeyGenerator;
-			productReference = 99018E1C220DDB60007146F9 /* SerialKeyGenerator.app */;
+			productReference = 99018E1C220DDB60007146F9 /* LicenseCodeGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		99018E2D220DDB61007146F9 /* SerialKeyGeneratorTests */ = {
+		99018E2D220DDB61007146F9 /* LicenseCodeGeneratorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99018E45220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGeneratorTests" */;
+			buildConfigurationList = 99018E45220DDB61007146F9 /* Build configuration list for PBXNativeTarget "LicenseCodeGeneratorTests" */;
 			buildPhases = (
+				1F3D24F3411911C70DBB00F2 /* [CP] Check Pods Manifest.lock */,
 				99018E2A220DDB61007146F9 /* Sources */,
 				99018E2B220DDB61007146F9 /* Frameworks */,
 				99018E2C220DDB61007146F9 /* Resources */,
@@ -157,15 +200,16 @@
 			dependencies = (
 				99018E30220DDB61007146F9 /* PBXTargetDependency */,
 			);
-			name = SerialKeyGeneratorTests;
+			name = LicenseCodeGeneratorTests;
 			productName = SerialKeyGeneratorTests;
-			productReference = 99018E2E220DDB61007146F9 /* SerialKeyGeneratorTests.xctest */;
+			productReference = 99018E2E220DDB61007146F9 /* LicenseCodeGeneratorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		99018E38220DDB61007146F9 /* SerialKeyGeneratorUITests */ = {
+		99018E38220DDB61007146F9 /* LicenseCodeGeneratorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99018E48220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGeneratorUITests" */;
+			buildConfigurationList = 99018E48220DDB61007146F9 /* Build configuration list for PBXNativeTarget "LicenseCodeGeneratorUITests" */;
 			buildPhases = (
+				57E15402FEDD87A51738D63C /* [CP] Check Pods Manifest.lock */,
 				99018E35220DDB61007146F9 /* Sources */,
 				99018E36220DDB61007146F9 /* Frameworks */,
 				99018E37220DDB61007146F9 /* Resources */,
@@ -175,9 +219,9 @@
 			dependencies = (
 				99018E3B220DDB61007146F9 /* PBXTargetDependency */,
 			);
-			name = SerialKeyGeneratorUITests;
+			name = LicenseCodeGeneratorUITests;
 			productName = SerialKeyGeneratorUITests;
-			productReference = 99018E39220DDB61007146F9 /* SerialKeyGeneratorUITests.xctest */;
+			productReference = 99018E39220DDB61007146F9 /* LicenseCodeGeneratorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 99018E17220DDB60007146F9 /* Build configuration list for PBXProject "SerialKeyGenerator" */;
+			buildConfigurationList = 99018E17220DDB60007146F9 /* Build configuration list for PBXProject "LicenseCodeGenerator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,9 +260,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99018E1B220DDB60007146F9 /* SerialKeyGenerator */,
-				99018E2D220DDB61007146F9 /* SerialKeyGeneratorTests */,
-				99018E38220DDB61007146F9 /* SerialKeyGeneratorUITests */,
+				99018E1B220DDB60007146F9 /* LicenseCodeGenerator */,
+				99018E2D220DDB61007146F9 /* LicenseCodeGeneratorTests */,
+				99018E38220DDB61007146F9 /* LicenseCodeGeneratorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,6 +292,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F3D24F3411911C70DBB00F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SerialKeyGeneratorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57E15402FEDD87A51738D63C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SerialKeyGeneratorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810434EAB155692C287CCD6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SerialKeyGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59C2E4196F3045C89048AB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SerialKeyGenerator/Pods-SerialKeyGenerator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SerialKeyGenerator/Pods-SerialKeyGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		99018E18220DDB60007146F9 /* Sources */ = {
@@ -280,12 +415,12 @@
 /* Begin PBXTargetDependency section */
 		99018E30220DDB61007146F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 99018E1B220DDB60007146F9 /* SerialKeyGenerator */;
+			target = 99018E1B220DDB60007146F9 /* LicenseCodeGenerator */;
 			targetProxy = 99018E2F220DDB61007146F9 /* PBXContainerItemProxy */;
 		};
 		99018E3B220DDB61007146F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 99018E1B220DDB60007146F9 /* SerialKeyGenerator */;
+			target = 99018E1B220DDB60007146F9 /* LicenseCodeGenerator */;
 			targetProxy = 99018E3A220DDB61007146F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,6 +554,7 @@
 		};
 		99018E43220DDB61007146F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C5CF9CB38BFAFF6E998D50 /* Pods-SerialKeyGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SerialKeyGenerator/SerialKeyGenerator.entitlements;
@@ -430,6 +566,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -438,6 +575,7 @@
 		};
 		99018E44220DDB61007146F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9703D636B6D16612CA28CD /* Pods-SerialKeyGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SerialKeyGenerator/SerialKeyGenerator.entitlements;
@@ -449,6 +587,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -457,6 +596,7 @@
 		};
 		99018E46220DDB61007146F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3EDEEC3754E5841C945FEE /* Pods-SerialKeyGeneratorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,12 +612,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGeneratorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerialKeyGenerator.app/Contents/MacOS/SerialKeyGenerator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicenseCodeGenerator.app/Contents/MacOS/LicenseCodeGenerator";
 			};
 			name = Debug;
 		};
 		99018E47220DDB61007146F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B222D1B7D750F642B7FA5FC /* Pods-SerialKeyGeneratorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,12 +634,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SerialKeyGeneratorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerialKeyGenerator.app/Contents/MacOS/SerialKeyGenerator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicenseCodeGenerator.app/Contents/MacOS/LicenseCodeGenerator";
 			};
 			name = Release;
 		};
 		99018E49220DDB61007146F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941358A3259DC807FC87B736 /* Pods-SerialKeyGeneratorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +661,7 @@
 		};
 		99018E4A220DDB61007146F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A6227AE0CCF799EDB15F62 /* Pods-SerialKeyGeneratorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,7 +683,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99018E17220DDB60007146F9 /* Build configuration list for PBXProject "SerialKeyGenerator" */ = {
+		99018E17220DDB60007146F9 /* Build configuration list for PBXProject "LicenseCodeGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99018E40220DDB61007146F9 /* Debug */,
@@ -549,7 +692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99018E42220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGenerator" */ = {
+		99018E42220DDB61007146F9 /* Build configuration list for PBXNativeTarget "LicenseCodeGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99018E43220DDB61007146F9 /* Debug */,
@@ -558,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99018E45220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGeneratorTests" */ = {
+		99018E45220DDB61007146F9 /* Build configuration list for PBXNativeTarget "LicenseCodeGeneratorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99018E46220DDB61007146F9 /* Debug */,
@@ -567,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99018E48220DDB61007146F9 /* Build configuration list for PBXNativeTarget "SerialKeyGeneratorUITests" */ = {
+		99018E48220DDB61007146F9 /* Build configuration list for PBXNativeTarget "LicenseCodeGeneratorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99018E49220DDB61007146F9 /* Debug */,
